@@ -1,17 +1,36 @@
 // Functions Practice
 // For the first standard function, write a function that accepts two numbers as parameters, adds them together, then returns the result of that addition
 // name this function addTwoNums
-// TO DO
+function addTwoNums(num1, num2){
+    let sum;
+    sum = num1 + num2;
+    return sum;
+} 
+// Another example would be (return num1 + num2;)
 
+// Example addTwoNums(1, 2) Returns 3
+
+//-------------------
 
 // For box 2, let's accept two string parameters and return the result of them concatenated into a single string with a space between the two words
 // name this function concatenateStrings
-// TO DO
+function concatenateStrings(str1, str2){
+    let wordString; 
+    wordString = str1 + " " + str2;
+    return wordString;
+}
+// concantenateStrings("Kiara" + "Yazzie")
 
 
 // for the first function expression, let's write code that displays returns one result if the number entered by the user is less than 100 ("number is less than 100"), and another message if the number is greater than or equal to 100 ("that is 100 or greater")
 // name this variable compareToHundred
-// TO DO
+let compareToHundred = function(number){
+    if(number < 100){
+        return "Number is less than 100";
+    }else{
+        return "That is 100 or greater";
+    }
+}
 
 
 // for the second function expression, let's write code that tells the user whether or not their answer to a trivia question is correct. This will accept a parameter for a letter answer, and can use either a switch statement or a series of if/else/if statements for the logic
