@@ -33,9 +33,27 @@ let compareToHundred = function(number){
 }
 
 
-// for the second function expression, let's write code that tells the user whether or not their answer to a trivia question is correct. This will accept a parameter for a letter answer, and can use either a switch statement or a series of if/else/if statements for the logic
+// for the second function expression, let's write code that tells the user whether or not their answer to a trivia question is correct. 
+// This will accept a parameter for a letter answer, and can use either a switch statement or a series of if/else/if statements for the logic
 // name this variable quizAnswer
-// TO DO
+let quizAnswer = function(answer){
+	switch(answer){
+		case "a":
+			return "Nope. GIT215 is the Introductory HTML/CSS course.";
+			break; 
+			
+		case "b":
+			return "Nope. GIT337 is the Intermediate HTML/CSS course.";
+			break;
+			
+		case "c":
+			return "Nope. GIT414 is the Responsive HTML/CSS course.";
+			break;
+		
+		case "d": 
+			return "You got it! GIT417 is the Introductory JavaScript course."
+	}
+}
 		// if they answered a return "Nope. GIT215 is the Introductory HTML/CSS course."
 
 	
@@ -46,6 +64,8 @@ let compareToHundred = function(number){
 
 	
 		// if they answered d return "You got it! GIT417 is the Introductory JavaScript course."
+
+//---------------------------------------------
 
 
 // For box five, re-write the first standard function in the arrow function syntax
